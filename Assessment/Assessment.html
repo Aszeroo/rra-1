@@ -1,0 +1,2135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<title>Ransomware Readiness Assessment</title>
+
+<body>
+  <div class="container">
+    <div class="page-header">
+      <h1>Ransomware Readiness Assessment</h1>
+    </div>
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Robust Data Backup (DB)</a>
+          </h4>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse">
+          <div class="panel-body">Be prepared to recover gracefully from an incident. Employ a backup solution that
+            automatically and continuously backs up your business-critical data and system
+            configurations. Ensure the backed-up data is stored securely (encrypted) offsite or in the
+            cloud and allows for at least 30 days of rollback. Periodically test your ability to recover data
+            from backup.
+          </div>
+          <div class="panel-body">
+            <table class="w3-table-all">
+              <tbody>
+                <tr>
+                  <th style="width:10%;"> DB:B.Q01 </th>
+                  <th style="width:45%;"> Are important systems and data backed up daily to an offsite location with the
+                    ability to restore multiple versions back at least 30 days? </th>
+                  <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                aria-expanded="false" aria-controls="collapseExample1">
+                Supplemental Guidance
+              </button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                aria-expanded="false" aria-controls="collapseExample">
+                Comment
+              </button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                Artifact / Document Title
+              </button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                References
+              </button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                Observations
+              </button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                Feedback
+              </button>
+            </p>
+            <br>
+          </div>
+          <div class="panel-footer">
+            <table class="w3-table-all">
+              <tbody>
+                <tr>
+                  <th style="width:10%;"> DB:B.Q02 </th>
+                  <th style="width:45%;"> Are data backups tested annually? </th>
+                  <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                aria-expanded="false" aria-controls="collapseExample1">
+                Supplemental Guidance
+              </button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                aria-expanded="false" aria-controls="collapseExample">
+                Comment
+              </button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                Artifact / Document Title
+              </button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                References
+              </button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                Observations
+              </button>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                Feedback
+              </button>
+            </p>
+            <br>
+          </div>
+          <div class="collapse" id="collapseExample1">
+            <div class="form-group">
+              <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+              </div>
+            </div>
+            <div class="collapse" id="collapseExample2">
+              <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Web Browser Management and DNS
+                Filtering (BM) </a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">Avoid danger and filter out connections to unauthorized websites, suspicious domains
+              names, and known malicious domains names that will make you vulnerable to malware
+              (such as ransomware) and phishing. Leverage DNS filtering, also known as DNS Blocking
+              or DNS Firewall, with integrated threat intelligence. A number of effective commercial
+              solutions are available ranging from free to low cost that make this an especially recommended action.
+            </div>
+            <div class="panel-body">
+              <table class="w3-table-all">
+                <tbody>
+                  <tr>
+                    <th style="width:10%;"> BM:B.Q01 </th>
+                    <th style="width:45%;"> Is malicious web content being blocked using DNS filtering via methods like
+                      DNS resolvers and DNS firewalls? </th>
+                    <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+              <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                  aria-expanded="false" aria-controls="collapseExample1">
+                  Supplemental Guidance
+                </button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  Comment
+                </button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  Artifact / Document Title
+                </button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  References
+                </button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  Observations
+                </button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  Feedback
+                </button>
+              </p>
+            </div>
+            <div class="panel-footer">
+              <table class="w3-table-all">
+                <tbody>
+                  <tr>
+                    <th style="width:10%;"> BM:B.Q02 </th>
+                    <th style="width:45%;"> Are web browser security settings managed? </th>
+                    <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+              <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                  aria-expanded="false" aria-controls="collapseExample1">
+                  Supplemental Guidance
+                </button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  Comment
+                </button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  Artifact / Document Title
+                </button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  References
+                </button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  Observations
+                </button>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  Feedback
+                </button>
+              </p>
+            </div>
+          </div>
+          <br>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Phishing Prevention and Awareness
+                  (PP)</a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body">Take steps to increase and maintain awareness of Phishing threats. Conduct ongoing
+                phishing and social engineering campaigns that randomly and periodically send simulated
+                phishing emails to personnel. Offer phishing awareness training to staff which will assist in
+                recognizing and reporting phishing attacks. Utilize an SMTP (mail server) proxy that
+                employs reputational (IP, URL, and sender) and traditional anti-SPAM and content filtering features.
+              </div>
+              <div class="panel-body">
+                <table class="w3-table-all">
+                  <tbody>
+                    <tr>
+                      <th style="width:10%;"> PP:B.Q01 </th>
+                      <th style="width:45%;"> Are annual tabletop exercises that include phishing response scenarios
+                        conducted? </th>
+                      <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                    </tr>
+                  </tbody>
+                </table>
+                <br>
+                <p>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                    aria-expanded="false" aria-controls="collapseExample1">
+                    Supplemental Guidance
+                  </button>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Comment
+                  </button>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Artifact / Document Title
+                  </button>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    References
+                  </button>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Observations
+                  </button>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Feedback
+                  </button>
+                </p>
+              </div>
+              <div class="panel-footer">
+                <table class="w3-table-all">
+                  <tbody>
+                    <tr>
+                      <th style="width:10%;"> PP:B.Q02 </th>
+                      <th style="width:45%;"> Are users trained to recognize cyber threats like phishing? </th>
+                      <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                    </tr>
+                  </tbody>
+                </table>
+                <br>
+                <p>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                    aria-expanded="false" aria-controls="collapseExample1">
+                    Supplemental Guidance
+                  </button>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Comment
+                  </button>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Artifact / Document Title
+                  </button>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    References
+                  </button>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Observations
+                  </button>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Feedback
+                  </button>
+                </p>
+              </div>
+              <div class="panel-footer">
+                <table class="w3-table-all">
+                  <tbody>
+                    <tr>
+                      <th style="width:10%;"> PP:B.Q03 </th>
+                      <th style="width:45%;"> Is email filtered to protect against malicious content? </th>
+                      <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                    </tr>
+                  </tbody>
+                </table>
+                <br>
+                <p>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                    aria-expanded="false" aria-controls="collapseExample1">
+                    Supplemental Guidance
+                  </button>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Comment
+                  </button>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Artifact / Document Title
+                  </button>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    References
+                  </button>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Observations
+                  </button>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Feedback
+                  </button>
+                </p>
+              </div>
+            </div>
+            <br>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Network Perimeter Monitoring
+                    (NM)</a>
+                </h4>
+              </div>
+              <div id="collapse4" class="panel-collapse collapse">
+                <div class="panel-body">Look for suspicious activity and react faster. Monitor internet traffic into and
+                  out of your
+                  organization. Be sure to use a product or service with integrated threat intelligence and
+                  consider subscribing to additional indicator sharing feeds, such as the Automated Indicator
+                  Sharing service provided by DHS, to automatically identify attacks and known bad actors.
+                </div>
+                <div class="panel-body">
+                  <table class="w3-table-all">
+                    <tbody>
+                      <tr>
+                        <th style="width:10%;"> NM:B.Q01 </th>
+                        <th style="width:45%;"> Is perimeter network traffic monitored? </th>
+                        <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <br>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                      aria-expanded="false" aria-controls="collapseExample1">
+                      Supplemental Guidance
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Comment
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Artifact / Document Title
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      References
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Observations
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Feedback
+                    </button>
+                  </p>
+                </div>
+                <div class="panel-footer">
+                  <table class="w3-table-all">
+                    <tbody>
+                      <tr>
+                        <th style="width:10%;"> NM:I.Q02 </th>
+                        <th style="width:45%;"> Is internal network traffic monitored? </th>
+                        <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <br>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                      aria-expanded="false" aria-controls="collapseExample1">
+                      Supplemental Guidance
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Comment
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Artifact / Document Title
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      References
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Observations
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Feedback
+                    </button>
+                  </p>
+                </div>
+                <div class="panel-footer">
+                  <table class="w3-table-all">
+                    <tbody>
+                      <tr>
+                        <th style="width:10%;"> NM:I.Q03 </th>
+                        <th style="width:45%;"> Are networks segmented to protect mission critical assets? </th>
+                        <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <br>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                      aria-expanded="false" aria-controls="collapseExample1">
+                      Supplemental Guidance
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Comment
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Artifact / Document Title
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      References
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Observations
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Feedback
+                    </button>
+                  </p>
+                </div>
+                <div class="panel-footer">
+                  <table class="w3-table-all">
+                    <tbody>
+                      <tr>
+                        <th style="width:10%;"> NM:A.Q04 </th>
+                        <th style="width:45%;"> Has the organization established a baseline of network traffic and is it
+                          used to identify anomalous activity? </th>
+                        <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <br>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                      aria-expanded="false" aria-controls="collapseExample1">
+                      Supplemental Guidance
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Comment
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Artifact / Document Title
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      References
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Observations
+                    </button>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                      aria-expanded="false" aria-controls="collapseExample">
+                      Feedback
+                    </button>
+                  </p>
+                </div>
+              </div>
+              <br>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Asset Management (AM)</a>
+                  </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                  <div class="panel-body">Protecting your systems requires knowing which devices are connected to your
+                    network,
+                    which applications are in use, who has access to them, and the security measures in place.
+                    A cyber-ready business keeps its systems up-to-date and secure. These actions can support
+                    a proactive risk management culture and limit the risk of compromise.
+
+                    Remove unsupported or unauthorized hardware and software. Supported hardware and
+                    software generally allow you to receive updates and patches for vulnerabilities that
+                    otherwise are not available for unauthorized and unsupported assets. Inventory authorized
+                    hardware and software throughout your organization. Know the physical location and user of
+                    the hardware to keep patching updates current. This also allows for any unauthorized
+                    hardware or software to be identified and removed.
+                  </div>
+                  <div class="panel-body">
+                    <table class="w3-table-all">
+                      <tbody>
+                        <tr>
+                          <th style="width:10%;"> AM:B.Q01 </th>
+                          <th style="width:45%;"> Have the organization’s hardware and software assets been inventoried
+                            and is the inventory managed? </th>
+                          <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <br>
+                    <p>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                        aria-expanded="false" aria-controls="collapseExample1">
+                        Supplemental Guidance
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Comment
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Artifact / Document Title
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        References
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Observations
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Feedback
+                      </button>
+                    </p>
+                  </div>
+                  <div class="panel-footer">
+                    <table class="w3-table-all">
+                      <tbody>
+                        <tr>
+                          <th style="width:10%;"> AM:B.Q02 </th>
+                          <th style="width:45%;"> Has the organization removed all unsupported hardware and software
+                            from its operating environment? </th>
+                          <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <br>
+                    <p>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                        aria-expanded="false" aria-controls="collapseExample1">
+                        Supplemental Guidance
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Comment
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Artifact / Document Title
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        References
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Observations
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Feedback
+                      </button>
+                    </p>
+                  </div>
+                  <div class="panel-footer">
+                    <table class="w3-table-all">
+                      <tbody>
+                        <tr>
+                          <th style="width:10%;"> AM:I.Q03 </th>
+                          <th style="width:45%;"> Does the organization detect rogue hardware and alert key
+                            stakeholders? </th>
+                          <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <br>
+                    <p>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                        aria-expanded="false" aria-controls="collapseExample1">
+                        Supplemental Guidance
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Comment
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Artifact / Document Title
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        References
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Observations
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Feedback
+                      </button>
+                    </p>
+                  </div>
+                  <div class="panel-footer">
+                    <table class="w3-table-all">
+                      <tbody>
+                        <tr>
+                          <th style="width:10%;"> AM:A.Q04 </th>
+                          <th style="width:45%;"> Does the organization quarantine and/or remove all rogue hardware?
+                          </th>
+                          <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <br>
+                    <p>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                        aria-expanded="false" aria-controls="collapseExample1">
+                        Supplemental Guidance
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Comment
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Artifact / Document Title
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        References
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Observations
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Feedback
+                      </button>
+                    </p>
+                  </div>
+                  <div class="panel-footer">
+                    <table class="w3-table-all">
+                      <tbody>
+                        <tr>
+                          <th style="width:10%;"> AM:B.Q05 </th>
+                          <th style="width:45%;"> Are documented and approved secure configurations used to manage the
+                            organization’s hardware and software assets? </th>
+                          <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <br>
+                    <p>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                        aria-expanded="false" aria-controls="collapseExample1">
+                        Supplemental Guidance
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Comment
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Artifact / Document Title
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        References
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Observations
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Feedback
+                      </button>
+                    </p>
+                  </div>
+                  <div class="panel-body">
+                    <table class="w3-table-all">
+                      <tbody>
+                        <tr>
+                          <th style="width:10%;"> AM:I.Q06 </th>
+                          <th style="width:45%;"> Are standard baseline images used to control hardware and software
+                            configurations? </th>
+                          <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <br>
+                    <p>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                        aria-expanded="false" aria-controls="collapseExample1">
+                        Supplemental Guidance
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Comment
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Artifact / Document Title
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        References
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Observations
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Feedback
+                      </button>
+                    </p>
+                  </div>
+                  <div class="panel-footer">
+                    <table class="w3-table-all">
+                      <tbody>
+                        <tr>
+                          <th style="width:10%;"> AM:A.Q07 </th>
+                          <th style="width:45%;"> Does the organization manage system configurations using security
+                            hardening guides? </th>
+                          <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <br>
+                    <p>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                        aria-expanded="false" aria-controls="collapseExample1">
+                        Supplemental Guidance
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Comment
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Artifact / Document Title
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        References
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Observations
+                      </button>
+                      <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Feedback
+                      </button>
+                    </p>
+                  </div>
+                </div>
+                <br>
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Patch And Update Management
+                        (PM)</a>
+                    </h4>
+                  </div>
+                  <div id="collapse7" class="panel-collapse collapse">
+                    <div class="panel-body">Make it generally harder for the bad guys by eliminating known
+                      vulnerabilities. Obtain, test, and deploy software and firmware patches as quickly as practical.
+                      Enable automatic updates whenever possible. Replace end of life (EOL) / unsupported operating
+                      systems, applications, and hardware with vendor supported versions/models.
+                      granted the minimum privileges needed. Identify and deactivate unused accounts, eliminate
+                      shared accounts, remove unnecessary privileges, and enforce strong password policies.
+                      Monitor and analyze user activities for anomalous behavior such as access attempts outside of
+                      normal operating hours or from unusual locations. Consider mechanisms that are
+                      stronger than password authentication such as biometrics, one-time passwords and tokens
+                      for sensitive applications and functions. Multi-factor authentication, in particular, is highly
+                      recommended starting with privileged users first, then expanding to all users. User and
+                      Access Management will be a daunting and complex activity—and there is no "one size fits
+                      all" solution. Adopt a strategy appropriate to your organization and leverage a staged approach.
+                    </div>
+                    <div class="panel-body">
+                      <table class="w3-table-all">
+                        <tbody>
+                          <tr>
+                            <th style="width:10%;"> PM:B.Q01 </th>
+                            <th style="width:45%;"> Is all public-facing software patched for vulnerabilities within 15
+                              days for vulnerabilities rated as “Critical” and 30 days for vulnerabilities rated as
+                              “High”? </th>
+                            <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <br>
+                      <p>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                          aria-expanded="false" aria-controls="collapseExample1">
+                          Supplemental Guidance
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                          aria-expanded="false" aria-controls="collapseExample">
+                          Comment
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Artifact / Document Title
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          References
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Observations
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Feedback
+                        </button>
+                      </p>
+                    </div>
+                    <div class="panel-footer">
+                      <table class="w3-table-all">
+                        <tbody>
+                          <tr>
+                            <th style="width:10%;"> PM:B.Q02 </th>
+                            <th style="width:45%;"> Has the organization removed all unsupported hardware and software
+                              from its operating environment? </th>
+                            <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <br>
+                      <p>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                          aria-expanded="false" aria-controls="collapseExample1">
+                          Supplemental Guidance
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                          aria-expanded="false" aria-controls="collapseExample">
+                          Comment
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Artifact / Document Title
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          References
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Observations
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Feedback
+                        </button>
+                      </p>
+                    </div>
+                    <div class="panel-footer">
+                      <table class="w3-table-all">
+                        <tbody>
+                          <tr>
+                            <th style="width:10%;"> PM:I.Q03 </th>
+                            <th style="width:45%;"> Are all software and firewalls patched for vulnerabilities within 15
+                              days for vulnerabilities rated as “Critical” and 30 days for vulnerabilities rated as
+                              “High”?? </th>
+                            <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <br>
+                      <p>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                          aria-expanded="false" aria-controls="collapseExample1">
+                          Supplemental Guidance
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                          aria-expanded="false" aria-controls="collapseExample">
+                          Comment
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Artifact / Document Title
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          References
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Observations
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Feedback
+                        </button>
+                      </p>
+                    </div>
+                    <div class="panel-footer">
+                      <table class="w3-table-all">
+                        <tbody>
+                          <tr>
+                            <th style="width:10%;"> PM:A.Q04 </th>
+                            <th style="width:45%;"> Are all software and firewalls patched for vulnerabilities within 3
+                              days for vulnerabilities rated as “Critical” and 7 days for vulnerabilities rated as
+                              “High”? </th>
+                            <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <br>
+                      <p>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                          aria-expanded="false" aria-controls="collapseExample1">
+                          Supplemental Guidance
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                          aria-expanded="false" aria-controls="collapseExample">
+                          Comment
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Artifact / Document Title
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          References
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Observations
+                        </button>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                          data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Feedback
+                        </button>
+                      </p>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">User and Access Management
+                          (UM)</a>
+                      </h4>
+                    </div>
+                    <div id="collapse9" class="panel-collapse collapse">
+                      <div class="panel-body">Implement policies, processes, and technologies that ensure only
+                        authorized users are granted the minimum privileges needed. Identify and deactivate unused
+                        accounts, eliminate shared accounts, remove unnecessary privileges, and enforce strong password
+                        policies. Monitor and analyze user activities for anomalous behavior such as access attempts
+                        outside of normal operating hours or from unusual locations. Consider mechanisms that are
+                        stronger than password authentication such as biometrics, one-time passwords and tokens for
+                        sensitive applications and functions. Multi-factor authentication, in particular, is highly
+                        recommended starting with privileged users first, then expanding to all users. User and Access
+                        Management will be a daunting and complex activity—and there is no "one size fits all" solution.
+                        Adopt a strategy appropriate to your organization and leverage a staged approach.
+                        responsibilities. Test it often. Incident response plans and disaster recovery plans are crucial
+                        to information security, but they are separate plans. Incident response mainly focuses on
+                        information asset protection, while disaster recovery plans focus on business continuity.
+                        Once you develop a plan, test the plan using realistic simulations (known as “war-gaming”),
+                        where roles and responsibilities are assigned to the people who manage cyber incident
+                        responses. This ensures that your plan is effective and that you have the appropriate people
+                        involved in the plan. Disaster recovery plans minimize recovery time by efficiently recovering
+                        critical systems.
+
+                        Plan, prepare, and conduct drills for cyber-attacks and incidents as you would a fire or
+                        robbery. Make your reaction to cyber incidents or system outages an extension of your other
+                        business contingency plans. This involves having incident response plans and procedures,
+                        trained staff, assigned roles and responsibilities, and incident communications plans.
+                      </div>
+                      <div class="panel-body">
+                        <table class="w3-table-all">
+                          <tbody>
+                            <tr>
+                              <th style="width:10%;"> UM:B.Q01 </th>
+                              <th style="width:45%;"> Are strong and unique passwords implemented throughout the entire
+                                organization? </th>
+                              <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <br>
+                        <p>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                            aria-expanded="false" aria-controls="collapseExample1">
+                            Supplemental Guidance
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Comment
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Artifact / Document Title
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            References
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Observations
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Feedback
+                          </button>
+                        </p>
+                      </div>
+                      <div class="panel-body">
+                        <table class="w3-table-all">
+                          <tbody>
+                            <tr>
+                              <th style="width:10%;"> UM:I.Q02 </th>
+                              <th style="width:45%;">Is two-factor authentication implemented for all privileged (e.g.
+                                system administrators) and remote users </th>
+                              <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <br>
+                        <p>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                            aria-expanded="false" aria-controls="collapseExample1">
+                            Supplemental Guidance
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Comment
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Artifact / Document Title
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            References
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Observations
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Feedback
+                          </button>
+                        </p>
+                      </div>
+                      <div class="panel-body">
+                        <table class="w3-table-all">
+                          <tbody>
+                            <tr>
+                              <th style="width:10%;"> UM:A.Q03 </th>
+                              <th style="width:45%;"> Is two-factor authentication implemented for all users? </th>
+                              <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <br>
+                        <p>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                            aria-expanded="false" aria-controls="collapseExample1">
+                            Supplemental Guidance
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Comment
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Artifact / Document Title
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            References
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Observations
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Feedback
+                          </button>
+                        </p>
+                      </div>
+                      <div class="panel-body">
+                        <table class="w3-table-all">
+                          <tbody>
+                            <tr>
+                              <th style="width:10%;"> UM:B.Q04 </th>
+                              <th style="width:45%;"> Is the principle of least privilege enforced through policies and
+                                procedures? </th>
+                              <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <br>
+                        <p>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                            aria-expanded="false" aria-controls="collapseExample1">
+                            Supplemental Guidance
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Comment
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Artifact / Document Title
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            References
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Observations
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Feedback
+                          </button>
+                        </p>
+                      </div>
+                      <div class="panel-body">
+                        <table class="w3-table-all">
+                          <tbody>
+                            <tr>
+                              <th style="width:10%;"> UM:I.Q05 </th>
+                              <th style="width:45%;"> Is least privilege enforced through technical (technology based)
+                                restrictions? </th>
+                              <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <br>
+                        <p>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                            aria-expanded="false" aria-controls="collapseExample1">
+                            Supplemental Guidance
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Comment
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Artifact / Document Title
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            References
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Observations
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Feedback
+                          </button>
+                        </p>
+                      </div>
+                      <div class="panel-body">
+                        <table class="w3-table-all">
+                          <tbody>
+                            <tr>
+                              <th style="width:10%;"> UM:I.Q06 </th>
+                              <th style="width:45%;"> Are audit logs maintained for all privileged (e.g. system
+                                administrator) accounts?? </th>
+                              <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <br>
+                        <p>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                            aria-expanded="false" aria-controls="collapseExample1">
+                            Supplemental Guidance
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Comment
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Artifact / Document Title
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            References
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Observations
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Feedback
+                          </button>
+                        </p>
+                      </div>
+                      <div class="panel-body">
+                        <table class="w3-table-all">
+                          <tbody>
+                            <tr>
+                              <th style="width:10%;"> UM:A.Q07 </th>
+                              <th style="width:45%;"> Is role-based security training conducted? </th>
+                              <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <br>
+                        <p>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                            aria-expanded="false" aria-controls="collapseExample1">
+                            Supplemental Guidance
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Comment
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Artifact / Document Title
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            References
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Observations
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Feedback
+                          </button>
+                        </p>
+                      </div>
+                      <div class="panel-body">
+                        <table class="w3-table-all">
+                          <tbody>
+                            <tr>
+                              <th style="width:10%;"> UM:I.Q08 </th>
+                              <th style="width:45%;"> Is rogue hardware being detected? </th>
+                              <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <br>
+                        <p>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                            aria-expanded="false" aria-controls="collapseExample1">
+                            Supplemental Guidance
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Comment
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Artifact / Document Title
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            References
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Observations
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Feedback
+                          </button>
+                        </p>
+                      </div>
+                      <div class="panel-body">
+                        <table class="w3-table-all">
+                          <tbody>
+                            <tr>
+                              <th style="width:10%;"> UM:A.Q09 </th>
+                              <th style="width:45%;"> Are users who attempt to install rogue hardware counseled against
+                                installing rogue hardware? </th>
+                              <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button></th>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <br>
+                        <p>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
+                            aria-expanded="false" aria-controls="collapseExample1">
+                            Supplemental Guidance
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Comment
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Artifact / Document Title
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            References
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Observations
+                          </button>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Feedback
+                          </button>
+                        </p>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">Application Integrity
+                            and Allowlist (AI)</a>
+                        </h4>
+                      </div>
+                      <div id="collapse10" class="panel-collapse collapse">
+                        <div class="panel-body">Ensure your applications perform in a secure and as-intended manner by
+                          instituting an Application Integrity policy that allows only approved, authorized software and
+                          their libraries to load and execute. Monitor the integrity of approved applications with
+                          periodic checks of file hashes to ensure no unauthorized modifications have been made. As with
+                          identity and access management—due to the complexity and effort required—consider a staged,
+                          gradually phased-in approach starting with high impact endpoints (e.g. domain controllers,
+                          application servers, databases), followed by any remaining support systems, and ending with
+                          any remaining user workstations or endpoints.
+                          This includes not only investments in technological capabilities, but also a continuous
+                          investment in cybersecurity training and awareness capabilities for your organization’s
+                          personnel. Have conversations with your staff, business partners, vendors, managed service
+                          providers, and others within your supply chain. Use risk assessments to identify and
+                          prioritize allocation of resources and cyber investment.
+                        </div>
+                        <div class="panel-body">
+                          <table class="w3-table-all">
+                            <tbody>
+                              <tr>
+                                <th style="width:10%;"> AI:B.Q01 </th>
+                                <th style="width:45%;"> Is there a list of known bad software (a “Blocklist”), and is
+                                  the software on that list being blocked? </th>
+                                <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                </th>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <br>
+                          <p>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                              Supplemental Guidance
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                              Comment
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              Artifact / Document Title
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              References
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              Observations
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              Feedback
+                            </button>
+                          </p>
+                        </div>
+                        <div class="panel-footer">
+                          <table class="w3-table-all">
+                            <tbody>
+                              <tr>
+                                <th style="width:10%;"> AI:I.Q02 </th>
+                                <th style="width:45%;"> Has the organization documented a list of known approved
+                                  software (an “Allowlist”)? </th>
+                                <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                </th>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <br>
+                          <p>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                              Supplemental Guidance
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                              Comment
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              Artifact / Document Title
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              References
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              Observations
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              Feedback
+                            </button>
+                          </p>
+                        </div>
+                        <div class="panel-footer">
+                          <table class="w3-table-all">
+                            <tbody>
+                              <tr>
+                                <th style="width:10%;"> AI:I.Q03 </th>
+                                <th style="width:45%;"> Is the Allowlist organized by software publisher, and is that
+                                  list used to allow only approved software to run on organizational systems? </th>
+                                <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                </th>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <br>
+                          <p>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                              Supplemental Guidance
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                              Comment
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              Artifact / Document Title
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              References
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              Observations
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              Feedback
+                            </button>
+                          </p>
+                        </div>
+                        <div class="panel-footer">
+                          <table class="w3-table-all">
+                            <tbody>
+                              <tr>
+                                <th style="width:10%;"> AI:A.Q04 </th>
+                                <th style="width:45%;"> Has the organization documented a list of known approved
+                                  software (an Allowlist) organized by software publisher and version number, and is
+                                  that list used to allow only approved software to run on organizational systems? </th>
+                                <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                </th>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <br>
+                          <p>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                              Supplemental Guidance
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                              Comment
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              Artifact / Document Title
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              References
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              Observations
+                            </button>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse"
+                              data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              Feedback
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">Incident Response
+                              (IR)</a>
+                          </h4>
+                        </div>
+                        <div id="collapse11" class="panel-collapse collapse">
+                          <div class="panel-body">Lead development of an incident response and disaster recovery plan
+                            outlining roles and responsibilities. Test it often. Incident response plans and disaster
+                            recovery plans are crucial to information security, but they are separate plans. Incident
+                            response mainly focuses on information asset protection, while disaster recovery plans focus
+                            on business continuity. Once you develop a plan, test the plan using realistic simulations
+                            (known as “war-gaming”), where roles and responsibilities are assigned to the people who
+                            manage cyber incident responses. This ensures that your plan is effective and that you have
+                            the appropriate people involved in the plan. Disaster recovery plans minimize recovery time
+                            by efficiently recovering critical systems.
+                            Plan, prepare, and conduct drills for cyber-attacks and incidents as you would a fire or
+                            robbery. Make your reaction to cyber incidents or system outages an extension of your other
+                            business contingency plans. This involves having incident response plans and procedures,
+                            trained staff, assigned roles and responsibilities, and incident communications plans.
+                          </div>
+                          <div class="panel-body">
+                            <table class="w3-table-all">
+                              <tbody>
+                                <tr>
+                                  <th style="width:10%;"> IR:B.Q01 </th>
+                                  <th style="width:45%;"> Has the organization developed an incident response plan?
+                                  </th>
+                                  <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <br>
+                            <p>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                Supplemental Guidance
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                Comment
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Artifact / Document Title
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                References
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Observations
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Feedback
+                              </button>
+                            </p>
+                          </div>
+                          <div class="panel-footer">
+                            <table class="w3-table-all">
+                              <tbody>
+                                <tr>
+                                  <th style="width:10%;"> IR:I.Q02 </th>
+                                  <th style="width:45%;"> Are cybersecurity incidents reported and escalated to the
+                                    appropriate stakeholders? </th>
+                                  <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <br>
+                            <p>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                Supplemental Guidance
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                Comment
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Artifact / Document Title
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                References
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Observations
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Feedback
+                              </button>
+                            </p>
+                          </div>
+                          <div class="panel-footer">
+                            <table class="w3-table-all">
+                              <tbody>
+                                <tr>
+                                  <th style="width:10%;"> IR:I.Q03 </th>
+                                  <th style="width:45%;"> Have disaster recovery procedures been developed? </th>
+                                  <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <br>
+                            <p>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                Supplemental Guidance
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                Comment
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Artifact / Document Title
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                References
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Observations
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Feedback
+                              </button>
+                            </p>
+                          </div>
+                          <div class="panel-footer">
+                            <table class="w3-table-all">
+                              <tbody>
+                                <tr>
+                                  <th style="width:10%;"> IR:B.Q04 </th>
+                                  <th style="width:45%;"> Does the organization conduct annual incident response
+                                    tabletop exercises that include ransomware response scenarios? </th>
+                                  <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <br>
+                            <p>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                Supplemental Guidance
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                Comment
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Artifact / Document Title
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                References
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Observations
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Feedback
+                              </button>
+                            </p>
+                          </div>
+                          <div class="panel-footer">
+                            <table class="w3-table-all">
+                              <tbody>
+                                <tr>
+                                  <th style="width:10%;"> IR:I.Q05 </th>
+                                  <th style="width:45%;"> Are incident response tabletop exercises performed at least
+                                    twice a year? </th>
+                                  <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <br>
+                            <p>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                Supplemental Guidance
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                Comment
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Artifact / Document Title
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                References
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Observations
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Feedback
+                              </button>
+                            </p>
+                          </div>
+                          <div class="panel-footer">
+                            <table class="w3-table-all">
+                              <tbody>
+                                <tr>
+                                  <th style="width:10%;"> IR:I.Q06 </th>
+                                  <th style="width:45%;"> Is a physical incident response exercise performed at least
+                                    once a year? </th>
+                                  <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <br>
+                            <p>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                Supplemental Guidance
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                Comment
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Artifact / Document Title
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                References
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Observations
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Feedback
+                              </button>
+                            </p>
+                          </div>
+                          <div class="panel-footer">
+                            <table class="w3-table-all">
+                              <tbody>
+                                <tr>
+                                  <th style="width:10%;"> IR:A.Q07 </th>
+                                  <th style="width:45%;"> Are physical incident response exercises performed at least
+                                    twice a year? </th>
+                                  <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <br>
+                            <p>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                Supplemental Guidance
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                Comment
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Artifact / Document Title
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                References
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Observations
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Feedback
+                              </button>
+                            </p>
+                          </div>
+                          <div class="panel-footer">
+                            <table class="w3-table-all">
+                              <tbody>
+                                <tr>
+                                  <th style="width:10%;"> IR:I.Q08 </th>
+                                  <th style="width:45%;"> Has the organization implemented redundant systems where
+                                    appropriate for the purpose of resiliency? </th>
+                                  <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <br>
+                            <p>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                Supplemental Guidance
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                Comment
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Artifact / Document Title
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                References
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Observations
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Feedback
+                              </button>
+                            </p>
+                          </div>
+                          <div class="panel-footer">
+                            <table class="w3-table-all">
+                              <tbody>
+                                <tr>
+                                  <th style="width:10%;"> IR:A.Q09 </th>
+                                  <th style="width:45%;"> Have redundant and resilient systems and data been implemented
+                                    throughout the organization? </th>
+                                  <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <br>
+                            <p>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                Supplemental Guidance
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                Comment
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Artifact / Document Title
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                References
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Observations
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Feedback
+                              </button>
+                            </p>
+                          </div>
+                        </div>
+                        <br>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">Risk Management
+                              (RM)</a>
+                          </h4>
+                        </div>
+                        <div id="collapse12" class="panel-collapse collapse">
+                          <div class="panel-body">Lead investment in cybersecurity by investing in capabilities for your
+                            organization and staff. This includes not only investments in technological capabilities,
+                            but also a continuous investment in cybersecurity training and awareness capabilities for
+                            your organization’s personnel. Have conversations with your staff, business partners,
+                            vendors, managed service providers, and others within your supply chain. Use risk
+                            assessments to identify and prioritize allocation of resources and cyber investment.
+                          </div>
+                          <div class="panel-body">
+                            <table class="w3-table-all">
+                              <tbody>
+                                <tr>
+                                  <th style="width:10%;"> RM:I.Q01 </th>
+                                  <th style="width:45%;"> Does the organization perform business impact assessments?
+                                  </th>
+                                  <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <br>
+                            <p>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                Supplemental Guidance
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                Comment
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Artifact / Document Title
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                References
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Observations
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Feedback
+                              </button>
+                            </p>
+                          </div>
+                          <div class="panel-footer">
+                            <table class="w3-table-all">
+                              <tbody>
+                                <tr>
+                                  <th style="width:10%;"> RM:A.Q02 </th>
+                                  <th style="width:45%;"> Has the organization defined organizational risk criteria and
+                                    tolerances? </th>
+                                  <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <br>
+                            <p>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                Supplemental Guidance
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                Comment
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Artifact / Document Title
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                References
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Observations
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Feedback
+                              </button>
+                            </p>
+                          </div>
+                          <div class="panel-footer">
+                            <table class="w3-table-all">
+                              <tbody>
+                                <tr>
+                                  <th style="width:10%;"> RM:A.Q03 </th>
+                                  <th style="width:45%;"> Does the organization consider risk inheritance and exposure
+                                    between its various interconnected systems? </th>
+                                  <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <br>
+                            <p>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                Supplemental Guidance
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                Comment
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Artifact / Document Title
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                References
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Observations
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Feedback
+                              </button>
+                            </p>
+                          </div>
+                          <div class="panel-footer">
+                            <table class="w3-table-all">
+                              <tbody>
+                                <tr>
+                                  <th style="width:10%;"> RM:A.Q04 </th>
+                                  <th style="width:45%;"> Does the organization apply quantitative risk analysis to
+                                    remediation activities? </th>
+                                  <th style="width:10%;"><button>Yes</button><button>No</button><button>Report</button>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <br>
+                            <p>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                Supplemental Guidance
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                Comment
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Artifact / Document Title
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                References
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Observations
+                              </button>
+                              <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Feedback
+                              </button>
+                            </p>
+                          </div>
+                        </div>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+</body>
+<footer>
+  <br>
+  <button>Back</button>
+  <button>Next</button>
+</footer>
+
+</html>
