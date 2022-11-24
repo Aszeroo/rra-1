@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
+  <style>
+    label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
 
+input,
+label {
+    margin: .4rem 0;
+}
+
+  </style>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -41,16 +52,15 @@
             </table>
             <br>
             <p>
-              <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
-                aria-expanded="false" aria-controls="collapseExample1">
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Supplemental_Guidance" aria-expanded="false" aria-controls="Supplemental_Guidance">
                 Supplemental Guidance
               </button>
-              <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
-                aria-expanded="false" aria-controls="collapseExample">
+              <button class="btn btn-primary" type="button" data-toggle="collapse" href="#Comment"
+                aria-expanded="false" aria-controls="Comment">
                 Comment
               </button>
-              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
-                aria-expanded="false" aria-controls="collapseExample">
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#avatar"
+                aria-expanded="false" aria-controls="avatar">
                 Artifact / Document Title
               </button>
               <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
@@ -66,6 +76,50 @@
                 Feedback
               </button>
             </p>
+            <!-- ------------------------------------------------------------------------------------------------------------------->
+            <div class="collapse" id="Supplemental_Guidance">
+              <div class="form-group">
+                <div class="card card-body">
+                  Question Intent: To determine if important systems are backed up daily to an offsite location with the ability to restore back at least 30 days.
+
+Learn to protect your information as it is stored, processed, or transmitted. Identify information critical to operations stored on your network. Have plans in place to help recover and restore systems, networks, and data from known good backups. Regular backups protect against ransomware and other forms of malware attacks. Use on-site and remote backup methods to protect vulnerable information. Periodic testing of the organization’s backup and storage procedures ensures continued validity as operational conditions change.
+
+Online and cloud storage backup services can help protect against data loss and provide encryption as an added level of security. Identify key files you need access to if online backups are unavailable when you do not have an internet connection.
+
+Possible actions:
+Employ a backup solution that automatically and continuously backs up your business-critical data and system configurations.
+Leverage protections for backups, including physical security, encryption, and offline copies.
+To increase the chances of recovering lost or corrupted data, follow the 3-2-1 rule:
+3 – Keep three copies of any important file: one primary and two backups.
+2 – Keep the files on two different media types to protect against different types of hazards.
+1 – Store one copy – or “go bag” – off-site (e.g., outside the home or business facility).
+Criteria for “Yes” Response:
+Important systems and data are backed up daily.
+And, backed up to an offsite location.
+And, created with the ability to restore multiple versions back at least 30 days.
+                </div>
+              </div>
+            </div>
+            
+            <div>
+              <div class="collapse" id="Comment">
+                <div class="form-group">
+                  <label for="comment">Comment:</label>
+                  <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="collapse" id="avatar">
+                <div class="form-group">
+                  <input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg">
+                </div>
+              </div>
+            </div>
+<!-- ------------------------------------------------------------------------------------------------------------------->
             <br>
           </div>
           <div class="panel-footer">
@@ -80,16 +134,16 @@
             </table>
             <br>
             <p>
-              <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample1"
-                aria-expanded="false" aria-controls="collapseExample1">
+              <button class="btn btn-primary" type="button" data-toggle="collapse" href="#Supplemental_Guidance1"
+                aria-expanded="false" aria-controls="Supplemental_Guidance1">
                 Supplemental Guidance
               </button>
-              <button class="btn btn-primary" type="button" data-toggle="collapse" href="#collapseExample2"
-                aria-expanded="false" aria-controls="collapseExample">
+              <button class="btn btn-primary" type="button" data-toggle="collapse" href="#Comment1"
+                aria-expanded="false" aria-controls="Comment1">
                 Comment
               </button>
-              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
-                aria-expanded="false" aria-controls="collapseExample">
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#avatar1"
+                aria-expanded="false" aria-controls="avatar1">
                 Artifact / Document Title
               </button>
               <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
@@ -105,21 +159,40 @@
                 Feedback
               </button>
             </p>
-            <br>
-          </div>
-          <div class="collapse" id="collapseExample1">
-            <div class="form-group">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </div>
-            <div class="collapse" id="collapseExample2">
+            <!-- ------------------------------------------------------------------------------------------------------------------->
+            <div class="collapse" id="Supplemental_Guidance1">
               <div class="form-group">
-                <label for="comment">Comment:</label>
-                <textarea class="form-control" rows="5" id="comment"></textarea>
+                <div class="card card-body">
+                  Question Intent: To determine if the organization test its data backups at least annually.
+
+                  Creating and restoring backup files can help mitigate the destructive effects of a ransomware attack. Periodically test your ability to recover data from backups to verify the integrity of the backups and their ability to be restored. The more critical or important the data, the more often you should test. Test your backup strategy before you need to use it to make sure you have full read-back verification, a method of preventing errors when information is relayed or repeated in a different form to confirm its accuracy.
+                  
+                  Criteria for “Yes” Response:
+                  Backups for important systems and data are tested at least annually.
+                </div>
               </div>
             </div>
+
+            <div>
+              <div class="collapse" id="Comment1">
+                <div class="form-group">
+                  <label for="comment">Comment:</label>
+                  <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="collapse" id="avatar1">
+                <div class="form-group">
+                  <input type="file"
+       id="avatar1" name="avatar1"
+       accept="image/png, image/jpeg">
+                </div>
+              </div>
+            </div>
+<!-- ------------------------------------------------------------------------------------------------------------------->
+            <br>
           </div>
         </div>
         <br>
@@ -175,6 +248,10 @@
                   Feedback
                 </button>
               </p>
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
+
+              <!-- ------------------------------------------------------------------------------------------------------------------->
             </div>
             <div class="panel-footer">
               <table class="w3-table-all">
@@ -213,6 +290,10 @@
                   Feedback
                 </button>
               </p>
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
+
+              <!-- ------------------------------------------------------------------------------------------------------------------->
             </div>
           </div>
           <br>
@@ -268,6 +349,12 @@
                     Feedback
                   </button>
                 </p>
+
+                <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
               </div>
               <div class="panel-footer">
                 <table class="w3-table-all">
@@ -306,6 +393,12 @@
                     Feedback
                   </button>
                 </p>
+
+                <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
               </div>
               <div class="panel-footer">
                 <table class="w3-table-all">
@@ -344,6 +437,12 @@
                     Feedback
                   </button>
                 </p>
+
+                <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
               </div>
             </div>
             <br>
@@ -398,6 +497,12 @@
                       Feedback
                     </button>
                   </p>
+
+                  <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                 </div>
                 <div class="panel-footer">
                   <table class="w3-table-all">
@@ -436,6 +541,12 @@
                       Feedback
                     </button>
                   </p>
+
+                  <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                 </div>
                 <div class="panel-footer">
                   <table class="w3-table-all">
@@ -474,6 +585,12 @@
                       Feedback
                     </button>
                   </p>
+
+                  <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                 </div>
                 <div class="panel-footer">
                   <table class="w3-table-all">
@@ -513,6 +630,12 @@
                       Feedback
                     </button>
                   </p>
+
+                  <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                 </div>
               </div>
               <br>
@@ -574,6 +697,11 @@
                         Feedback
                       </button>
                     </p>
+                    <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                   </div>
                   <div class="panel-footer">
                     <table class="w3-table-all">
@@ -613,6 +741,11 @@
                         Feedback
                       </button>
                     </p>
+                    <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                   </div>
                   <div class="panel-footer">
                     <table class="w3-table-all">
@@ -652,6 +785,11 @@
                         Feedback
                       </button>
                     </p>
+                    <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                   </div>
                   <div class="panel-footer">
                     <table class="w3-table-all">
@@ -691,6 +829,11 @@
                         Feedback
                       </button>
                     </p>
+                    <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                   </div>
                   <div class="panel-footer">
                     <table class="w3-table-all">
@@ -730,6 +873,11 @@
                         Feedback
                       </button>
                     </p>
+                    <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                   </div>
                   <div class="panel-body">
                     <table class="w3-table-all">
@@ -769,6 +917,11 @@
                         Feedback
                       </button>
                     </p>
+                    <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                   </div>
                   <div class="panel-footer">
                     <table class="w3-table-all">
@@ -808,6 +961,11 @@
                         Feedback
                       </button>
                     </p>
+
+                    <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
                   </div>
                 </div>
                 <br>
@@ -872,6 +1030,11 @@
                           Feedback
                         </button>
                       </p>
+
+                      <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
                     </div>
                     <div class="panel-footer">
                       <table class="w3-table-all">
@@ -911,6 +1074,11 @@
                           Feedback
                         </button>
                       </p>
+
+                      <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
                     </div>
                     <div class="panel-footer">
                       <table class="w3-table-all">
@@ -951,6 +1119,11 @@
                           Feedback
                         </button>
                       </p>
+                      <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                     </div>
                     <div class="panel-footer">
                       <table class="w3-table-all">
@@ -991,6 +1164,11 @@
                           Feedback
                         </button>
                       </p>
+                      <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                     </div>
                   </div>
                   <br>
@@ -1064,6 +1242,11 @@
                             Feedback
                           </button>
                         </p>
+
+                        <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
                       </div>
                       <div class="panel-body">
                         <table class="w3-table-all">
@@ -1103,6 +1286,11 @@
                             Feedback
                           </button>
                         </p>
+                        <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                       </div>
                       <div class="panel-body">
                         <table class="w3-table-all">
@@ -1141,6 +1329,11 @@
                             Feedback
                           </button>
                         </p>
+                        <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                       </div>
                       <div class="panel-body">
                         <table class="w3-table-all">
@@ -1180,6 +1373,11 @@
                             Feedback
                           </button>
                         </p>
+
+                        <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
                       </div>
                       <div class="panel-body">
                         <table class="w3-table-all">
@@ -1219,6 +1417,11 @@
                             Feedback
                           </button>
                         </p>
+                        <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                       </div>
                       <div class="panel-body">
                         <table class="w3-table-all">
@@ -1258,6 +1461,11 @@
                             Feedback
                           </button>
                         </p>
+                        <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                       </div>
                       <div class="panel-body">
                         <table class="w3-table-all">
@@ -1296,6 +1504,11 @@
                             Feedback
                           </button>
                         </p>
+                        <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                       </div>
                       <div class="panel-body">
                         <table class="w3-table-all">
@@ -1334,6 +1547,11 @@
                             Feedback
                           </button>
                         </p>
+                        <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                       </div>
                       <div class="panel-body">
                         <table class="w3-table-all">
@@ -1373,6 +1591,11 @@
                             Feedback
                           </button>
                         </p>
+
+                        <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
                       </div>
                     </div>
                     <br>
@@ -1437,6 +1660,11 @@
                               Feedback
                             </button>
                           </p>
+                          <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                         </div>
                         <div class="panel-footer">
                           <table class="w3-table-all">
@@ -1477,6 +1705,11 @@
                               Feedback
                             </button>
                           </p>
+                          <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                         </div>
                         <div class="panel-footer">
                           <table class="w3-table-all">
@@ -1517,6 +1750,11 @@
                               Feedback
                             </button>
                           </p>
+                          <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                         </div>
                         <div class="panel-footer">
                           <table class="w3-table-all">
@@ -1558,6 +1796,11 @@
                               Feedback
                             </button>
                           </p>
+                          <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                         </div>
                       </div>
                       <br>
@@ -1622,6 +1865,11 @@
                                 Feedback
                               </button>
                             </p>
+
+                            <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
                           </div>
                           <div class="panel-footer">
                             <table class="w3-table-all">
@@ -1662,6 +1910,11 @@
                                 Feedback
                               </button>
                             </p>
+                            <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                           </div>
                           <div class="panel-footer">
                             <table class="w3-table-all">
@@ -1701,6 +1954,11 @@
                                 Feedback
                               </button>
                             </p>
+                            <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                           </div>
                           <div class="panel-footer">
                             <table class="w3-table-all">
@@ -1741,6 +1999,11 @@
                                 Feedback
                               </button>
                             </p>
+                            <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                           </div>
                           <div class="panel-footer">
                             <table class="w3-table-all">
@@ -1781,6 +2044,11 @@
                                 Feedback
                               </button>
                             </p>
+                            <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                           </div>
                           <div class="panel-footer">
                             <table class="w3-table-all">
@@ -1821,6 +2089,11 @@
                                 Feedback
                               </button>
                             </p>
+                            <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                           </div>
                           <div class="panel-footer">
                             <table class="w3-table-all">
@@ -1861,6 +2134,11 @@
                                 Feedback
                               </button>
                             </p>
+                            <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                           </div>
                           <div class="panel-footer">
                             <table class="w3-table-all">
@@ -1901,6 +2179,11 @@
                                 Feedback
                               </button>
                             </p>
+                            <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                           </div>
                           <div class="panel-footer">
                             <table class="w3-table-all">
@@ -1941,6 +2224,11 @@
                                 Feedback
                               </button>
                             </p>
+                            <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                           </div>
                         </div>
                         <br>
@@ -1999,6 +2287,11 @@
                                 Feedback
                               </button>
                             </p>
+                            <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                           </div>
                           <div class="panel-footer">
                             <table class="w3-table-all">
@@ -2039,6 +2332,11 @@
                                 Feedback
                               </button>
                             </p>
+                            <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                           </div>
                           <div class="panel-footer">
                             <table class="w3-table-all">
@@ -2079,6 +2377,11 @@
                                 Feedback
                               </button>
                             </p>
+                            <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+
                           </div>
                           <div class="panel-footer">
                             <table class="w3-table-all">
@@ -2119,6 +2422,11 @@
                                 Feedback
                               </button>
                             </p>
+                            <!-- ------------------------------------------------------------------------------------------------------------------->
+
+              
+              <!-- ------------------------------------------------------------------------------------------------------------------->
+              
                           </div>
                         </div>
                         <br>
