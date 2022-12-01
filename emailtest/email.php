@@ -17,10 +17,10 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
     // สร้างรหัสสุ่ม 
     
     //1.สร้างชุดตัวอักษรตั้งแต่ a-z 
-    $arr_a_z = range( "a" , "z" ) 
+    // $arr_a_z = range( "a" , "z" ) ;
     
     //2.สร้างชุดตัวอักษรตั้งแต่ A-Z 
-    $arr_A_Z = range( "A" , "Z" ) 
+    // $arr_A_Z = range( "A" , "Z" ) ;
     
     //3.สร้างชุดตัวอักษรตั้งแต่ 0-9 
     $arr_0_9 = range( 0 , 9 ) ; 
